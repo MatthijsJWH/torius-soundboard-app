@@ -9,7 +9,7 @@
 				</v-card>
 			</v-flex>
 			<v-flex xs6>
-				<v-card v-on:click="navigate('ladies')">
+				<v-card ripple v-on:click="navigate('ladies')">
 					<v-card-title>
 						<p>Ladies</p>
 					</v-card-title>

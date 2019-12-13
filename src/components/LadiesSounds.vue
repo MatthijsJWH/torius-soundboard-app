@@ -2,7 +2,7 @@
 	<v-container fluid grid-list-lg>
 		<v-layout wrap>
 			<v-flex>
-				<v-card v-on:click="stop()" color="yellow">
+				<v-card ripple v-on:click="stop()" color="yellow">
 					<v-card-text>
 						<v-icon color="red" x-large>stop</v-icon>
 						<p>Stop</p>
@@ -12,7 +12,7 @@
 		</v-layout>
 		<v-layout wrap>
 			<v-flex xs4 v-for="(sound, index) in sounds" :key="index">
-				<v-card v-on:click="play(sound.sound)" class="justify-center">
+				<v-card ripple v-on:click="play(sound.sound)" class="justify-center">
 					<v-card-text>
 						<v-icon color="blue" x-large>play_arrow</v-icon>
 						<p>{{ sound.title }}</p>
