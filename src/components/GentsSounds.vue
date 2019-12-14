@@ -32,20 +32,24 @@ export default {
 			sounds: [
 				{
 					title: "Bram 1",
-					sound: "bram_1.mp3"
+					sound: "bram_1.2.mp3"
 				},
 				{
 					title: "Bram 2",
-					sound: "bram_2.mp3"
+					sound: "bram_2.2.mp3"
 				},
 				// {
 				// 	title: "Guus",
 				// 	sound: "bell.mp3"
 				// },
-				// {
-				// 	title: "Jelle v. A.",
-				// 	sound: "explosion.mp3"
-				// },
+				{
+					title: "Jelle v. A. 1",
+					sound: "jelle_van_alphen_1.mp3"
+				},
+				{
+					title: "Jelle v. A. 2",
+					sound: "jelle_van_alphen_2.mp3"
+				},
 				{
 					title: "Jelle E",
 					sound: "jelle_epema.mp3"
@@ -78,10 +82,14 @@ export default {
 					title: "Matthijs 2",
 					sound: "matthijs_2.mp3"
 				},
-				// {
-				// 	title: "Max",
-				// 	sound: "telephone.mp3"
-				// },
+				{
+					title: "Max 1",
+					sound: "max_1.mp3"
+				},
+				{
+					title: "Max 2",
+					sound: "max_2.mp3"
+				},
 				{
 					title: "Thyske 1",
 					sound: "thyske_1.mp3"
@@ -93,6 +101,30 @@ export default {
 				{
 					title: "Tim",
 					sound: "tim.mp3"
+				},
+				{
+					title: "Tomas",
+					sound: "tomas.mp3"
+				},
+				{
+					title: "Wout 1",
+					sound: "wout_1.mp3"
+				},
+				{
+					title: "Wout 1",
+					sound: "wout_1.mp3"
+				},
+				{
+					title: "Extra 1",
+					sound: "extra_1.mp3"
+				},
+				{
+					title: "Extra 2",
+					sound: "extra_2.mp3"
+				},
+				{
+					title: "Extra 3",
+					sound: "extra_3.mp3"
 				},
 				{
 					title: "Penalty Wissel",

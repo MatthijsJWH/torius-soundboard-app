@@ -39,6 +39,22 @@ export default {
 					sound: "ella.mp3"
 				},
 				{
+					title: "Fleur B. 1",
+					sound: "fleur_boel_1.mp3"
+				},
+				{
+					title: "Fleur B. 2",
+					sound: "fleuar_boel_2.mp3"
+				},
+				{
+					title: "Fleur G.",
+					sound: "fleur_gijsen.mp3"
+				},
+				{
+					title: "Imke",
+					sound: "imke.mp3"
+				},
+				{
 					title: "Laura 1",
 					sound: "laura_1.mp3"
 				},
@@ -47,12 +63,40 @@ export default {
 					sound: "laura_2.mp3"
 				},
 				{
+					title: "Maartje 1",
+					sound: "maartje_1.mp3"
+				},
+				{
+					title: "Maartje Penalty",
+					sound: "maartje_penalty.mp3"
+				},
+				{
+					title: "Maria 1",
+					sound: "maria_1.mp3"
+				},
+				{
+					title: "Maria 2",
+					sound: "maria_2.mp3"
+				},
+				{
 					title: "Maud",
 					sound: "maud.mp3"
 				},
 				{
 					title: "Sofie",
 					sound: "sofie.mp3"
+				},
+				{
+					title: "Extra 1",
+					sound: "extra_1.mp3"
+				},
+				{
+					title: "Extra 2",
+					sound: "extra_2.mp3"
+				},
+				{
+					title: "Extra 3",
+					sound: "extra_3.mp3"
 				},
 				{
 					title: "Penalty Wissel",
