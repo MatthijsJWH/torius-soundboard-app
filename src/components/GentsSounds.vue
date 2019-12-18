@@ -111,8 +111,8 @@ export default {
 					sound: "wout_1.mp3"
 				},
 				{
-					title: "Wout 1",
-					sound: "wout_1.mp3"
+					title: "Wout 2",
+					sound: "wout_2.mp3"
 				},
 				{
 					title: "Extra 1",
