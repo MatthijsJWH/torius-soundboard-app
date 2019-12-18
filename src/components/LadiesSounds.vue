@@ -44,7 +44,7 @@ export default {
 				},
 				{
 					title: "Fleur B. 2",
-					sound: "fleuar_boel_2.mp3"
+					sound: "fleur_boel_2.mp3"
 				},
 				{
 					title: "Fleur G.",
