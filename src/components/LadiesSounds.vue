@@ -2,12 +2,14 @@
 	<v-container fluid grid-list-lg>
 
 		<v-tooltip left>
-			<v-btn 
-				color="yellow" slot="activator" v-on:click="stop()"
-				ripple fixed dark bottom right large fab
-			>
-				<v-icon color="red" x-large>stop</v-icon>
-			</v-btn>
+			<template v-slot:activator="{ on }">
+				<v-btn 
+					color="yellow" v-on="on" @click="stop"
+					ripple fixed dark bottom right large fab
+				>
+					<v-icon color="red" x-large>stop</v-icon>
+				</v-btn>
+			</template>
 			<span>Stop current song</span>
 		</v-tooltip>
 

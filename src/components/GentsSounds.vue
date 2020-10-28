@@ -2,18 +2,20 @@
 	<v-container fluid grid-list-lg>
 
 		<v-tooltip left>
-			<v-btn 
-				color="yellow" slot="activator" v-on:click="stop()"
-				ripple fixed dark bottom right large fab
-			>
-				<v-icon color="red" x-large>stop</v-icon>
-			</v-btn>
+			<template v-slot:activator="{ on }">
+				<v-btn 
+					color="yellow" v-on="on" @click="stop"
+					ripple fixed dark bottom right large fab
+				>
+					<v-icon color="red" x-large>stop</v-icon>
+				</v-btn>
+			</template>
 			<span>Stop current song</span>
 		</v-tooltip>
 
 		<v-layout wrap>
 			<v-flex xs4 v-for="(sound, index) in sounds" :key="index">
-				<v-card ripple v-on:click="play(sound.sound)">
+				<v-card ripple @click="play(sound.sound)">
 					<v-card-text>
 						<v-icon color="blue" x-large>play_arrow</v-icon>
 						<p>{{ sound.title }}</p>
@@ -21,7 +23,7 @@
 				</v-card>
 			</v-flex>
 		</v-layout>
-		
+
 	</v-container>
 </template>
 
