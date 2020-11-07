@@ -33,14 +33,38 @@ export default {
 		return {
 			current: new Audio(),
 			sounds: [
+				// {
+				// 	title: "Anne Lynn",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
+				// {
+				// 	title: "Ayla",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
 				{
 					title: "Charlotte",
 					sound: "charlotte.mp3"
 				},
+				// {
+				// 	title: "Demi",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
 				{
 					title: "Ella",
 					sound: "ella.mp3"
 				},
+				// {
+				// 	title: "Enri",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
+				// {
+				// 	title: "Eva B.",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
+				// {
+				// 	title: "Eva P.",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
 				{
 					title: "Fleur B. 1",
 					sound: "fleur_boel_1.mp3"
@@ -57,6 +81,10 @@ export default {
 					title: "Imke",
 					sound: "imke.mp3"
 				},
+				// {
+				// 	title: "Josephine",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
 				{
 					title: "Laura 1",
 					sound: "laura_1.mp3"
@@ -81,6 +109,14 @@ export default {
 					title: "Maria 2",
 					sound: "maria_2.mp3"
 				},
+				// {
+				// 	title: "Marjolein",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
+				// {
+				// 	title: "Mascha",
+				// 	sound: "extra_1.mp3" // TBD
+				// },
 				{
 					title: "Maud",
 					sound: "maud.mp3"
